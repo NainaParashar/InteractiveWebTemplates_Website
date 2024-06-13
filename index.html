@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Niramit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans+HK:wght@100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="index">
+    <section class="front">
+      <nav>
+        <div class="n-left"></div>
+        <div class="n-center">
+          <div> <a href="products.html">PRODUCTS</a></div>
+          <div> <a href="templates.html">TEMPLATES</a></div>
+          <div> <a href="contact.html">CONTACTS</a></div>
+        </div>
+        <div class="n-right">
+          <div> <a href="login.html">LOG IN</a></div>
+          <button>GET STARTED</button>
+        </div>
+      </nav>
+      <div class="front-page">
+        <div class="f-left">
+          <h3>CREATE YOUR WEBSITE</h3>
+          <h1 class="animated">
+            The leader in <br /><br />
+            website design
+          </h1>
+          <h2>
+            Stand out online with a professional website, online store, or
+            portfolio.
+          </h2>
+          <button  class="started">GET STARTED</button>
+        </div>
+
+        <div class="f-right">
+          <div class="scroll-up">
+            <div class="inner">
+              <img src="i3.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="front-2">
+      <div class="f2-text">
+        <h1 class="animated">
+          Award-winning <br />
+          web designs
+        </h1>
+        <h2>
+          Choose from an unrivaled set of best-in-class website <br />templates.
+          Customize the design to fit your personal<br />
+          style and professional needs.
+        </h2>
+      </div>
+
+      <div class="scroll">
+        <div class="image-container" id="image-container">
+          <div class="image-wrapper"><img src="i5.jpg" /></div>
+          <div class="image-wrapper"><img src="i6.jpg" /></div>
+          <div class="image-wrapper"><img src="i7.jpg" /></div>
+          <div class="image-wrapper"><img src="i8.jpg" /></div>
+          <div class="image-wrapper"><img src="i9.jpg" /></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="front-3">
+      <div class="text-3">
+        <h1>
+          Flexible<br />
+          Portfolios
+        </h1>
+        <h2 class="h2">
+          Present your work using Squarespace’s professional portfolio designs.
+          Display projects in customizable galleries and add password-protected
+          pages to share private work with clients.
+        </h2>
+      </div>
+
+      <div class="container-3">
+        <div class="left-3">
+          <h2>
+            “You get a premium look on your website without struggling to create
+            it.”
+          </h2>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <h2 class="none">ADRIENNE RAQUEL, FASHION PHOTOGRAPHER</h2>
+        </div>
+        <div class="right-3">
+          <img src="i11.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <section class="front-4">
+      <div class="container-4">
+        <div class="left-4">
+          <img src="i12.png" />
+        </div>
+        <div class="right-4">
+          <h1>
+            Blogging <br />
+            Tools
+          </h1>
+          <br />
+          <br />
+          <br />
+          <h2>
+            Take advantage of our powerful blogging tools to share your story,
+            post company news, or announce a product release. Categorize, share,
+            and schedule your posts to make your content work for you.
+          </h2>
+        </div>
+      </div>
+    </section>
+    <section class="front-5">
+      <div class="container-5">
+        <div class="left-5">
+          <img src="i1.png" />
+        </div>
+        <div class="right-5">
+          <h1>Built-in SEO tools</h1>
+          <br />
+          <h2>
+            Every Squarespace website or online store comes with a suite of
+            integrated features and useful guides that help maximize prominence
+            among search results.
+          </h2>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+     <div class="tools">
+      <div class="insta"><a href=""> <img src="gram.jpg"></a></div>
+      <div class="link"><a href=""><img src="link.png"></a></div>
+      <div class="mail"><a href=""><img src="mail.png"></a></div>
+
+     
+     </div>
+     <h2>Naina Parashar@2024</h2>
+
+
+    </footer>
+  </div>
+    <script>
+      // script.js
+   
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const container = document.getElementById("image-container");
+
+        container.addEventListener("mousemove", (e) => {
+          const containerWidth = container.offsetWidth;
+          const contentWidth = container.scrollWidth;
+          const mouseX = e.clientX - container.getBoundingClientRect().left;
+          const scrollX =
+            (mouseX / containerWidth) * (contentWidth - containerWidth);
+          container.scrollLeft = scrollX;
+        });
+      });
+    </script>
+  </body>
+</html>

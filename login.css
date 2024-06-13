@@ -1,0 +1,48 @@
+
+body{
+    background-image: url(login.jpg);
+    background-repeat:no-repeat;
+    background-color: rgb(206, 203, 200);
+    margin-bottom: 0;
+    
+}
+body{
+    font-family: "EB Garamond", serif;
+}
+.container{
+   
+position: relative;
+color: black;
+
+
+}
+img{
+    transition: all 300ms ease-in-out;
+}
+img:hover{
+    transform: scale(1.1);
+}
+
+.login{
+    position: absolute;
+    border: 2px solid rgb(236, 226, 226);
+      width:30rem ;
+      height: 30rem;
+      border-radius: 3rem;
+    left: 40%;
+    top: 5rem;
+    background-color: rgb(245, 241, 241);
+    text-align: center;
+    opacity: 0.6;
+}
+
+
+input{
+    background: transparent;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 3rem;
+    width: 80%;
+ 
+}
+
